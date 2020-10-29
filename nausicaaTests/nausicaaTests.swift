@@ -22,6 +22,8 @@ class NausicaaTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let car = Car(wheels: 4)
+        XCTAssert(car.wheels == 4)
     }
 
     func testPerformanceExample() throws {

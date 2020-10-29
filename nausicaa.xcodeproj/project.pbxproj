@@ -17,6 +17,7 @@
 		DBB34D6525368F6000BE320E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB34D6325368F6000BE320E /* LaunchScreen.storyboard */; };
 		DBB34D7025368F6000BE320E /* nausicaaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB34D6F25368F6000BE320E /* nausicaaTests.swift */; };
 		DBB34D7B25368F6000BE320E /* nausicaaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB34D7A25368F6000BE320E /* nausicaaUITests.swift */; };
+		DBB34DAA254A944500BE320E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB34DA9254A944500BE320E /* Car.swift */; };
 		F0C0D095EA7E215AF57BF1D0 /* Pods_nausicaaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CA64322CA1784664CE49EC /* Pods_nausicaaTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		DBB34D7625368F6000BE320E /* nausicaaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nausicaaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB34D7A25368F6000BE320E /* nausicaaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nausicaaUITests.swift; sourceTree = "<group>"; };
 		DBB34D7C25368F6000BE320E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB34DA9254A944500BE320E /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		F027DE1D162BF19740692D59 /* Pods-nausicaa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nausicaa.debug.xcconfig"; path = "Target Support Files/Pods-nausicaa/Pods-nausicaa.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +148,7 @@
 				DBB34D6125368F6000BE320E /* Assets.xcassets */,
 				DBB34D6325368F6000BE320E /* LaunchScreen.storyboard */,
 				DBB34D6625368F6000BE320E /* Info.plist */,
+				DBB34DA9254A944500BE320E /* Car.swift */,
 			);
 			path = nausicaa;
 			sourceTree = "<group>";
@@ -175,8 +178,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBB34D7F25368F6000BE320E /* Build configuration list for PBXNativeTarget "nausicaa" */;
 			buildPhases = (
-				DBB34D88253832F100BE320E /* ShellScript */,
 				F0FE662DD112F1E9CE208F7B /* [CP] Check Pods Manifest.lock */,
+				DBB34D88253832F100BE320E /* ShellScript */,
 				DBB34D5125368F5E00BE320E /* Sources */,
 				DBB34D5225368F5E00BE320E /* Frameworks */,
 				DBB34D5325368F5E00BE320E /* Resources */,
@@ -391,6 +394,7 @@
 			files = (
 				DBB34D5D25368F5E00BE320E /* ViewController.swift in Sources */,
 				DBB34D5925368F5E00BE320E /* AppDelegate.swift in Sources */,
+				DBB34DAA254A944500BE320E /* Car.swift in Sources */,
 				DBB34D5B25368F5E00BE320E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
